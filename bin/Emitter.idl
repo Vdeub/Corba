@@ -1,0 +1,7 @@
+
+interface Emitter
+{
+ void sendMessage(in string to, in string message);
+};
+
+

@@ -1,0 +1,10 @@
+#include "Emitter.idl"
+#include "Receiver.idl"
+ 
+interface Connection
+{
+ Emitter connect(in string pseudo, in Receiver rcv);
+ void disconnect(in string pseudo);
+};
+
+
